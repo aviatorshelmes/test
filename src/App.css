@@ -361,10 +361,10 @@
     width: 90%;
     justify-content: center;
     overflow: hidden;
-    height: 30%;
+    height: auto;
     background:none;
     align-items: center;
-    border: 1px solid blue;
+    border: 2px solid blue;
     border-radius: 1%;
     z-index: 4;
   }
@@ -373,7 +373,8 @@
     display: flex;
     padding: 0 0 0 10px;
     align-items: center;
-    width: 80%;
+    width: 90%;
+    height:auto;
     text-align: justify;
   }
   .logo_arts{
@@ -383,7 +384,7 @@
     width: 100%;
     display: flex;
     background:url('./img/mobile.png');
-
+    background-size: contain;
     flex-direction: column;
     align-items: center;
   }
@@ -427,7 +428,7 @@
     height:20%;
   }
   .answer_button{
-    font-size: 1.7vh;
+    font-size: 1.9vh;
     background:none;
     display: flex;
     flex-wrap: wrap;
