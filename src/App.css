@@ -15,13 +15,6 @@
 
 * {
   font-family: "Stolzl";
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -302,12 +295,26 @@
   font-size: 3vh;
 }
 .final_second {
+  /* margin: 0px 35px -17px 34px; */
   font-size: 3vh;
 }
 
+/* @media (min-width:1000px) {
+  .quesions_text{
+    height: 80px;
+    padding-left: 20px;
+    margin-top: 2%;
+    font-size: 1.7vh !important;
+    display: flex;
+    padding: 1.5%;
+    width: 65%;
+    text-align: justify;
+  }
+} */
+
 @media (max-width : 1600px) {
 .quesions_text{
-  font-size: 1.8vh;
+  font-size: 1.6vh;
   height: 35px;
 }
 .answer_button{
@@ -339,7 +346,7 @@
     text-align: justify;
   }
   .answer_letter{
-    margin-top: 55%;
+    margin-top: 35%;
   }
 }
 
@@ -439,14 +446,5 @@
   }
   .answer_item{
     justify-content: center;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }

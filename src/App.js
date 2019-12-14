@@ -1,6 +1,5 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/jsx-filename-extension */
-import React, { useState, useEffect } from 'react';
+
+import React, { useState } from 'react';
 
 import questions from './mock/questions';
 import StartScreen from './mock/startScreen';
@@ -13,7 +12,6 @@ function App() {
   const [answerValue, setAnswerValue] = useState(0);
   const [sex, getSex] = useState(null);
   const [hidden, changeHidden] = useState('hidden');
-  // const [finalText, changeFinalText] = useState('');
   const nextQuestion = (e) => {
     const newCount = count + 1;
     const newAnswerValue = answerValue + +e;
@@ -23,7 +21,6 @@ function App() {
   const backgroundImagePath = require(`./img/${
     count + 1 < 11 ? count + 1 : 1
   }.png`);
-  // `${'backgroundImage:url(./img/'}${count}.png);`;
   if (count < 10) {
     return (
       <div className="question_container">
