@@ -412,8 +412,11 @@
     height: auto;
   }
   .final_info{
-    height: 65%;
+    height: auto%;
     width: 90%;
+  }
+  .start_screen__button{
+    width: 55%;
   }
   .final,.final_second{
     font-size: 2.5vh;
@@ -434,7 +437,7 @@
     flex-wrap: wrap;
     white-space: normal;
     width: 80%;
-    height: 100px;
+    height: auto;
   }
   .answer_button:hover{
     font-size: 2.3vh;
@@ -443,7 +446,7 @@
     background:none;
     white-space: normal;
     width: 80%;
-    height: 100px;
+    height: auto;
   }
   .answer_item{
     justify-content: center;
@@ -459,6 +462,7 @@
   }
   .answer_letter{
     margin-top: 65%;
+    font-size: 2vh;
   }
   .answers_container{
     height:62%;
