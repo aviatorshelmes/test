@@ -350,6 +350,13 @@
   }
 }
 
+@media (min-width:2000px){
+  .answer_letter{
+    font-size: 2vh;
+    margin-top:65%;
+  }
+}
+
 @media (max-width:990px){
   .answer_button{
     width:82%;
