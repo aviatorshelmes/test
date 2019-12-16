@@ -350,6 +350,52 @@
   }
 }
 
+@media (max-width:990px){
+  .answer_button{
+    width:82%;
+    font-size:1.4vh;
+  }
+  .answer_button:hover{
+    width:82%
+  }
+  .quesions_text{
+    height:40px;
+    width:67%;
+    font-size: 1.1vh;
+  }
+  .hexagon {
+    position: relative;
+    width: 35px; 
+    height: 20.21px;
+    background-color: #64C7CC;
+    margin: 10.10px 0;
+  }
+  
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 17.5px solid transparent;
+    border-right: 17.5px solid transparent;
+  }
+  
+  .hexagon:before {
+    bottom: 100%;
+    border-bottom: 10.10px solid #64C7CC;
+  }
+  
+  .hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 10.10px solid #64C7CC;
+  }
+  .answer_letter{
+    font-size: 3vh;
+    margin-top:65%;
+  }
+}
+
 @media (max-width : 860px) {
 
   .answer_letter{
